@@ -1,7 +1,7 @@
 #on connection
 php n.php > n
-#through shared 'toomi'
-cp n ../recieve/n
+
+#through shared 'toomi' n
 
 #with every voice chunk
 soxi -s OO.wav > ms
@@ -15,5 +15,4 @@ rm Nkey.wav
 rm key.wav
 rm ms
 
-#through light
-cp L.wav ../recieve/L.wav
+#through light L
